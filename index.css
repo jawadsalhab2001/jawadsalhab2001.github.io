@@ -1,0 +1,405 @@
+
+body{
+    font-family:'Nyala';
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    margin-top: -10px;
+    
+  }
+
+  nav {
+    width: 600px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 700px) {
+    nav ul{
+      font-size: 12px;
+    }
+  }
+
+  nav a {
+    text-decoration: none;
+    color: rgb(218, 205, 210);
+  }
+
+.clear{
+    clear: both;
+    background-color: black;
+    width: 100%;
+}
+  .blackHeart {
+    width: 300px;
+    float: left;
+    padding-left: 40%;
+  }
+
+  .searchimg {
+    width: 30px;
+
+  }
+
+  .searchbkd{
+    background-color: #EEEEEE;
+    height: 30px;
+  }
+  .search {
+    padding-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+
+  }
+
+  .srchbtn{
+    margin-left: -30px;
+  }
+
+  .searchbar {
+    background-color: #EEEEEE;
+    border: 0px none;
+    width: 900px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+
+  @media screen and (max-width: 1300px) {
+    .searchbar{
+      width:600px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .searchbar{
+      width:400px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .searchbar{
+      width:130px;
+    }
+  }
+
+  .search a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .srchbtn{
+    background-color: #fb3e44;
+    color: white;
+    border: 1px solid white;
+    height: 35px;
+    width: 65px;
+    margin-bottom: 20px;
+  }
+
+  .join {
+    border: 1px solid black;
+    background-color: white;
+    height: 26px;
+    width: 45px;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+
+  .login {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  #build {
+    text-align: center;
+    background-color: rgba(48, 43, 43, 0.612);
+    height:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.buildbtns {
+    margin-top: 25px;
+}
+
+  .sec{
+
+    font-size: 40px;
+    text-align: center;
+}
+
+.des{
+    padding-bottom: 25px;
+    
+}
+
+  .pr {
+    background-color: #fb3e44;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    box-shadow:8px 8px 0 rgba(251,59,73,.2) ;
+  }
+
+ #bring {
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+ }
+
+  #bring img {
+width: 300px;
+
+  }
+
+  #bring p {
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  #bring h3 {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 35px;
+    background-color:rgba(255,204,53,.4) ;
+    transform: skew(9deg, 0deg);
+
+  }
+
+  #create {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30;
+    padding: 30;
+    padding-top: 100px;
+  }
+
+
+  #create img {
+    height: 20px;
+    width: 20px;
+  }
+
+  #create h4{
+    color: #fb3e44;
+
+  }
+
+  #last {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -150px;
+   margin-bottom: 100px;
+  }
+
+  #last button {
+    background-color: black;
+    color: white;
+    box-shadow:8px 8px 0 rgba(128,83,35,.2) ;
+    border: 1px solid white;
+    width: 250px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .nav {
+    display:inline-block;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    
+  }
+ marquee{
+    font-size: 20px;
+    background-color: #ca060c;
+    color: #EEEEEE;
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    margin: 0px;
+    behavior: scroll;
+ }
+  
+button.join:hover{
+    background-color: black;
+    color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+button.srchbtn:hover{
+    background-color: black;
+    color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+a:hover{
+    color: #ca060c;
+}
+
+a.pr:hover{
+    background-color: black;
+    color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    box-shadow:8px 8px 0 rgba(46, 38, 39, 0.2) ;
+    border: 1px solid black;
+}
+
+.ft{
+    display:inline-block;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    display: flex;
+    align-items:normal;
+    
+    justify-content: space-evenly;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.e{
+    background-color: #d3cecec8;
+    border: 0px none;
+    width: 400px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.item{
+    width: max-content;
+    height: 150px;
+    padding: 60px;
+    justify-content: center;
+}
+.item img{
+    width: 280px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   grid-gap: 10px;
+   padding: 10px;
+   text-align: center;
+   justify-content: normal;
+}
+
+footer{
+    text-align:center;
+    background-color: black;
+    color: #EEEEEE;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    height: 30px;
+    width:100%;
+}
+
+#login{
+    width: 100%;
+}
+
+textarea{
+    width:200px;
+    height: 300px;
+    
+}
+button{
+  justify-content: center;
+}
+
+button.pr:hover{
+  background-color: black;
+  color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  box-shadow:8px 8px 0 rgba(46, 38, 39, 0.2) ;
+  border: 1px solid black;
+}
+h1{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+.img{
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  float: inline-start;
+}
+.s{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.s1{
+  width: 33%;
+
+}
+.i1{
+  text-align: center;
+  color: #1e5e21c9;
+  text-decoration: none;
+}
+
+form {
+  justify-content: center;
+  box-sizing: border-box;
+  box-shadow: 50px solid #ddc5c5;
+  width: 40%;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 4px solid hsl(0, 0%, 90%);
+  display: grid;
+  gap: 10px;
+  
+}
+
+.center{
+  justify-content: center;
+  display: flex;
+}
+
+button,
+fieldset,
+input,
+legend,
+select,
+textarea {
+  appearance: none;
+}
+
+#join:hover{
+  color: white;
+}
