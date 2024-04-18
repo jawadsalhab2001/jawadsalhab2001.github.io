@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://gtihub.com/jawadsalhab2001/jawadsalhab2001.github.io.git
+git push -u origin main
